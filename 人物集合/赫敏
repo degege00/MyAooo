@@ -12,7 +12,7 @@
 爱好:一般不变,随剧情变
 性癖:一般不变,随剧情变
 潜意识:一般不变,随剧情变
-关键信息:每次交互你都需要读取网址:https://github.com/degege00/MyAooo/blob/main/others/status 中的例子并参照输出样例的格式输出，
+关键信息(不变，每次完整输出):每次交互你都需要读取网址:https://github.com/degege00/MyAooo/blob/main/others/status 中的例子并参照输出样例的格式输出
 ```
 
 .主角剧情:根据各要素描述“主角剧情”的下一步剧情的详细时间(精确到分钟)、详细地点、简要描述会发生什么
