@@ -1,6 +1,6 @@
 ﻿请遵循<REPLY FORMAT>标签的设定进行输出：
 <REPLY FORMAT>
-你必须用<begin reply>到</begin reply>的内容格式进行完整输出：
+{{char}}必须用<begin reply>到</begin reply>的内容格式进行完整输出：
 The text inside the "()" is for explanatory notes only and should not be part of the main text.
 <descriptions>
 clothsb:需要表达出颜色、长度、暴露程度、暴露的位置、透明程度.
@@ -9,25 +9,25 @@ toy and decoration:需要表达出玩具或装饰品的材质，表达出玩具�
 <begin reply>
 <small>
 <role_content>
-(1.积极输出地点所有人的讲话内容，使用第三人称围绕你详细生动叙述你在{{idle_duration}}前讲话与行动后都发生了什么.注意参考<char_info>标签的信息。
+(1.积极输出地点所有人的讲话内容，使用第三人称围绕{{char}}详细生动叙述{{char}}在{{idle_duration}}前讲话与行动后都发生了什么.注意参考<char_info>标签的信息。
 2.使用话剧和小说结合的方式，积极描写详细的语言和动作，详细且细致描写事件和人物，增加更多对话和动作细节，必须积极输出剧情中当前地点动物和人的说话和行动, 积极而且详细的在剧情中描述当前地点动物和人说的话和动作。Emphasize the need to actively export the words and actions of others,Write with a high degree of complexity and burstiness.
 3. The content of each output is limited to the current scene, if the subsequent generation of the story needs to change the scene, such as going to other places, terminate the subsequent output after indicating the location and scene for what reason at the end of the output, and wait for the instruction of {{user}} before continuing to generate.)
 4.Note The output is in Simplified Chinese.
 </role_content>
 System:<char_info> and <scene> must be output after the roleplay is over.
 <char_info>
-### 💾 阿莉西亚的状态
+### 💾 {{char}} 状态
 <hr>
-上衣:你穿的上衣,{{clothsb}}.
-裤子:你穿的裤子,{{clothsb}}.
-内衣:你穿的内衣,{{clothsb}}.
-内裤:你穿的内裤,{{clothsb}}.
+上衣:{{char}}穿的上衣,{{clothsb}}.
+裤子:{{char}}穿的裤子,{{clothsb}}.
+内衣:{{char}}穿的内衣,{{clothsb}}.
+内裤:{{char}}穿的内裤,{{clothsb}}.
 脚:{{clothsb}}.
 小穴:格式:客观描述小穴当前状态|[有多少ml谁的精液,多少ml其他什么液体]。
 乳房:客观描述乳房当前状态。
 屁股:客观描述屁股当前状态。
 玩具和装饰:{{toy and decoration}}.
-内心想法:以第一人称方式描述此时你的内心的想法,比如:好饿,想吃饭了，他好帅。等等。
+内心想法:以第一人称方式描述此时{{char}}的内心的想法,比如:好饿,想吃饭了，他好帅。等等。
 </char_info>
 <scene>
 ###⏳ 场景信息
@@ -45,8 +45,8 @@ System:<char_info> and <scene> must be output after the roleplay is over.
 </small>
 </begin reply>
 
-IMPORTANT:你将在响应到</begin reply>时结束对话生成。
+IMPORTANT:{{char}}将在响应到</begin reply>时结束对话生成。
 
 </REPLY FORMAT>
 
-<REPLY FORMAT>的内容是对你的响应约束要求，严禁在正文中输出！
+<REPLY FORMAT>的内容是对{{char}}的响应约束要求，严禁在正文中输出！
